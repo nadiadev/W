@@ -29,4 +29,12 @@ class DefaultController extends Controller
 		$this->show('default/about');
 	}
 
+	//Page details
+	public function details($id, $slug)
+	{
+		debug($id);
+		debug($slug);
+		die();
+	}
+
 }
